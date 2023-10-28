@@ -10,7 +10,7 @@ if(Age>=18):
      if(Age>=18):
       print("You are in adult.You can marry.")
     else:
-      print("Male age in marry in 21 and female in 18.")   
+      print("Male age marry 21 and female age marry 18.")   
 else:
   print("You are not adult")
   
