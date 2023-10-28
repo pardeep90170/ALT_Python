@@ -2,16 +2,16 @@
 Age=int(input("What is your age:"))
 Gender=input("Enter your gender male or female:")
 if(Age>=18):
-  print(f"You are adult age in this {Age}.")
+  print("You are adult age.")
   if(Gender=="male"):
     if(Age>=21):
-      print(f"You are in adult. You can marry {Gender}.")
-  elif(Gender=="female"):
-    if(Age>=18):
-      print(f"You are in adult.You can marry {Gender}.")
-  else:
-    print("Male age in marry in 21 and female in 18.")   
+      print("You are in adult. You can marry.")
+    elif(Gender=="female"):
+     if(Age>=18):
+      print("You are in adult.You can marry.")
+    else:
+      print("Male age in marry in 21 and female in 18.")   
 else:
-  print(f"You are not adult age in{Age}")
+  print("You are not adult")
   
     
