@@ -1,0 +1,53 @@
+#Create a grading system
+ch=float(input("Enter your choice in marks:1  and  for grade2:"))
+if(ch==1 or ch==1.1):
+    value=input("Enter your num and cgp point:")
+    if(value=="absent" or value=="0" or value=="ABSENT"):
+        print("Yuour grade is AAA")
+    else: 
+      num = float(value)
+      if(num>=90 and num<=100 or num>=9.0 and num<=10.0):
+        print("Your grade is:'O'")
+      elif(num>=80 and num<=89 or num>=8.0 and num<=8.9):
+        print("You grade is:'D+'")
+      elif(num>=75 and num<=79 or num>=7.5 and num<=7.9):
+        print("You grade is:'D'")
+      elif(num>=70 and num<=75 or num>=7.0 and num<=7.5):
+       print("You grade is:'A+'")
+      elif(num>=60 and num<=69 or num>=5.0 and num<=5.9):
+       print("You grade is:'A'")
+      elif(num>=50 and num<=59 or num>=5.0 and num<=5.9):
+       print("You grade is:'B'")
+      elif(num>=40 and num<=49 or num>=4.0 and num<=4.9):
+        print("You grade is:'C'")
+      elif(num>=00 and num<=39 or num>=0.0 and num<=3.9):
+        print("Your grade is:'U'")
+      else:
+        print("Match Not Found...")
+elif(ch==2 or ch==2.2):
+    print("Enter are grade in use capital and small letter(O,A,B,U,C,D,AAA)in use:")
+    grade=input("Enter your grade:")
+    if(grade=="O" or grade=="o"):
+      print("Your num is between 90 and 100")
+    elif(grade=="D+" or grade=="d+"):
+      print("Your num is between 80 and 89")
+    elif(grade=="D" or grade=="d"):
+      print("Your num is between 75 and 79")
+    elif(grade=="A+" or grade=="a+"):
+     print("Your num is between 70 and 75")
+    elif(grade=="A" or grade=="a"):
+     print("Your num is between 60 and 69")
+    elif(grade=="B" or grade=="b"):
+     print("Your num is between 50 and 59")
+    elif(grade=="C" or grade=="c"):
+      print("Your num is between 40 and 49")
+    elif(grade=="U" or grade=="u"):
+      print("Your num is between 00 and 39")
+    elif(grade=="AAA" or grade=="aaa"):
+      print("Your are Absent")
+    else:
+      print("Not Are Use In Name Letter In Meaning Full Name...")
+else:
+  print("Invalid choice:")
+
+  
