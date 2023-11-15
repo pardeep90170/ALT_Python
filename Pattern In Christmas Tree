@@ -1,0 +1,16 @@
+# pattern question in display
+pic=[[0,0,0,1,0,0,0],
+    [0,0,1,1,1,0,0],
+    [0,1,1,1,1,1,0],
+    [1,1,1,1,1,1,1],
+    [0,0,0,1,0,0,0],
+    [0,0,0,1,0,0,0]]
+for i in range(len(pic)):
+  for j in range(len(pic[i])):
+    if(pic[i][j]==0 ):
+      print(" ",end="")
+    else:
+     print("*",end="")
+  print()
+    
+      
