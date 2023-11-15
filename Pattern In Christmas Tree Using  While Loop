@@ -1,0 +1,40 @@
+# pattern question in christmas tree
+n=6
+row=1
+i=1
+col2 = 1
+while(row<=n):
+  space=n-row-2
+  if(row > n-2):
+    x = 1
+    y = 1
+    space2 = n-x-2
+    while(space2>0):
+      print("-",end="")
+      space2=space2-1
+    print("*",end="")
+    space2 = n-x-2
+    while(space2>0):
+      print("-",end="")
+      space2=space2-1
+  else:
+    while(space and space >=0):
+      print("-",end="")
+      space=space-1
+    col=1
+    while(col<=row):
+      print("*",end="")
+      col=col+1
+    start=row-1
+    while(start):
+        print("*",end="")
+        start=start-1
+    space=n-row-2
+    while(space and space >=0):
+      print("-",end="")
+      space=space-1
+        
+  print()
+  row=row+1
+    
+  
