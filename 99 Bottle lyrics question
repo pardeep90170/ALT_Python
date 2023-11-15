@@ -1,0 +1,10 @@
+# 99 bottle of lyrics
+i=1
+for i in range(99,1,-1):
+  print(f"{i}bottles of Water on the wall, {i} bottles of Water.Take one down and pass it around,{i-1} bottles of Water on the wall.")
+  if(i<=2):
+    print(f"bottles of Water on the wall, {i-1} bottles of Water.Take one down and pass it around,{i-1} bottles of Water on the wall.")
+    print("Take one down and pass it around, no more bottles of Water on the wall.")
+else:
+  print("No more bottles of Water on the wall, no more bottles of Water.")
+  print(f"Go to the store and buy some more, {num} bottles of Water on the wall")
